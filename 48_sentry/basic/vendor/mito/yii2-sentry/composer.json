@@ -1,0 +1,37 @@
+{
+    "name": "mito/yii2-sentry",
+    "description": "Yii 2 extension for Sentry",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sentry"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albert Borsos",
+            "email": "a.borsos@mito.hu"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "sentry/sentry": "1.5.*",
+        "bower-asset/raven-js": "3.7.*"
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "~2.0",
+        "satooshi/php-coveralls": "~1.0",
+        "codeception/codeception": "2.1.*",
+        "codeception/specify": " *",
+        "codeception/verify": " *",
+        "codeception/mockery-module": "^0.2.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "mito\\sentry\\": "src/",
+            "mito\\sentry\\tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

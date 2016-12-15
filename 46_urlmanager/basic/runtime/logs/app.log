@@ -1,0 +1,1788 @@
+2016-11-26 11:30:23 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'scandir() has been disabled for security reasons' in /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php:150
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'scandir() has b...', '/home/wwwroot/i...', 150, Array)
+#1 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(150): scandir('/home/wwwroot/i...')
+#2 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(143): yii\console\controllers\HelpController->getModuleCommands(Object(yii\gii\Module))
+#3 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(77): yii\console\controllers\HelpController->getModuleCommands(Object(yii\console\Application))
+#4 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(89): yii\console\controllers\HelpController->getCommands()
+#5 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(184): yii\console\controllers\HelpController->getCommandDescriptions()
+#6 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#7 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#8 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('', Array)
+#11 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('', Array)
+#12 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('', Array)
+#13 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('', Array)
+#14 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#15 /home/wwwroot/imoocshop/basic/yii(20): yii\base\Application->run()
+#16 {main}
+2016-11-26 11:30:23 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 60425 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'OLDPWD' => '/home/wwwroot/imoocshop'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/1'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 60425 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480131023.5692
+    'REQUEST_TIME' => 1480131023
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2016-11-26 11:31:16 [-][-][-][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'exec() has been disabled for security reasons' in /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/helpers/BaseConsole.php:622
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'exec() has been...', '/home/wwwroot/i...', 622, Array)
+#1 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/helpers/BaseConsole.php(622): exec('stty -a 2>&1', Array)
+#2 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/helpers/BaseConsole.php(663): yii\helpers\BaseConsole::getScreenSize(false)
+#3 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(214): yii\helpers\BaseConsole::wrapText('Allows you to c...', 31)
+#4 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/controllers/HelpController.php(67): yii\console\controllers\HelpController->getDefaultHelp()
+#5 [internal function]: yii\console\controllers\HelpController->actionIndex(NULL)
+#6 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#7 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/Controller.php(119): yii\base\Controller->runAction('', Array)
+#9 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('', Array)
+#10 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/Application.php(176): yii\base\Module->runAction('', Array)
+#11 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/console/Application.php(143): yii\console\Application->runAction('', Array)
+#12 /home/wwwroot/imoocshop/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 /home/wwwroot/imoocshop/basic/yii(20): yii\base\Application->run()
+#14 {main}
+2016-11-26 11:31:16 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 60425 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'OLDPWD' => '/home/wwwroot/imoocshop'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/1'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 60425 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1480131076.2947
+    'REQUEST_TIME' => 1480131076
+    'argv' => [
+        0 => './yii'
+    ]
+    'argc' => 1
+]
+2016-12-14 02:01:44 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/modules/views/public/login.php:33
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/modules/controllers/PublicController.php:21
+2016-12-14 02:01:44 [192.168.199.108][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'PHPSESSID' => '0m2i3napd1ls036ac8krj7cdd4'
+    '_csrf' => '92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V4En9qARR6nCjDF6m1o3k49HbVfcH58m\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?r=admin/public/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '55046'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; PHPSESSID=0m2i3napd1ls036ac8krj7cdd4; _csrf=92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V4En9qARR6nCjDF6m1o3k49HbVfcH58m%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481652104.6864
+    'REQUEST_TIME' => 1481652104
+]
+2016-12-14 02:01:46 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/modules/models/Admin.php:75
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/modules/controllers/PublicController.php:16
+2016-12-14 02:01:46 [192.168.199.108][-][-][info][application] $_GET = [
+    'r' => 'admin/public/login'
+]
+
+$_POST = [
+    '_csrf' => 'Q0NTNkUzLlYVdxZYfEJvBBF1PXUvd2hgLnI8BS4HFx4hFTVVDQYWOw=='
+    'Admin' => [
+        'adminuser' => 'admintest'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'PHPSESSID' => '0m2i3napd1ls036ac8krj7cdd4'
+    '_csrf' => '92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V4En9qARR6nCjDF6m1o3k49HbVfcH58m\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.php?r=index%2Findex'
+    '__admin' => 12
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => 'r=admin/public/login'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '170'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/?r=admin/public/login'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '55048'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '170'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/?r=admin/public/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; PHPSESSID=0m2i3napd1ls036ac8krj7cdd4; _csrf=92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V4En9qARR6nCjDF6m1o3k49HbVfcH58m%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481652106.226
+    'REQUEST_TIME' => 1481652106
+]
+2016-12-14 02:02:19 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/controllers/CartController.php:62
+2016-12-14 02:02:19 [192.168.199.108][12][-][info][application] $_GET = [
+    'r' => 'cart/add'
+    'productid' => '27'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'PHPSESSID' => '0m2i3napd1ls036ac8krj7cdd4'
+    '_csrf' => '92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V4En9qARR6nCjDF6m1o3k49HbVfcH58m\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__admin' => 12
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Fadd&productid=27'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Fadd&productid=27'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '55050'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; PHPSESSID=0m2i3napd1ls036ac8krj7cdd4; _csrf=92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V4En9qARR6nCjDF6m1o3k49HbVfcH58m%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481652139.8649
+    'REQUEST_TIME' => 1481652139
+]
+2016-12-14 02:03:25 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/controllers/CartController.php:62
+2016-12-14 02:03:25 [192.168.199.108][12][-][info][application] $_GET = [
+    'r' => 'cart/add'
+    'productid' => '26'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'PHPSESSID' => '0m2i3napd1ls036ac8krj7cdd4'
+    '_csrf' => '92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V4En9qARR6nCjDF6m1o3k49HbVfcH58m\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__admin' => 12
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Fadd&productid=26'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Fadd&productid=26'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '55045'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; PHPSESSID=0m2i3napd1ls036ac8krj7cdd4; _csrf=92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V4En9qARR6nCjDF6m1o3k49HbVfcH58m%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481652205.7306
+    'REQUEST_TIME' => 1481652205
+]
+2016-12-14 02:03:35 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/43_cache_dep/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/43_cache_dep/basic/controllers/CartController.php:62
+2016-12-14 02:03:35 [192.168.199.108][12][-][info][application] $_GET = [
+    'r' => 'cart/add'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'PHPSESSID' => '0m2i3napd1ls036ac8krj7cdd4'
+    '_csrf' => '92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"V4En9qARR6nCjDF6m1o3k49HbVfcH58m\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__admin' => 12
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => 'r=cart%2Fadd&productid=8'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=cart%2Fadd&productid=8'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '55050'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; PHPSESSID=0m2i3napd1ls036ac8krj7cdd4; _csrf=92b8111d345d96361a01146ebd313d1a30380e18ea7c54d02b1911ddc1cbf4e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22V4En9qARR6nCjDF6m1o3k49HbVfcH58m%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481652215.8639
+    'REQUEST_TIME' => 1481652215
+]
+2016-12-14 04:26:44 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:26:44 [192.168.199.108][12][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: index/index.html' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Controller.php:125
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('index.html', Array)
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('index/index.htm...', Array)
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-14 04:26:44 [192.168.199.108][12][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => '4mdk8cmdiee6nerlsrgvgn1cs6'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61267'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=4mdk8cmdiee6nerlsrgvgn1cs6; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481660804.0644
+    'REQUEST_TIME' => 1481660804
+]
+2016-12-14 04:33:53 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/controllers/CartController.php:62
+2016-12-14 04:33:53 [192.168.199.108][12][-][info][application] $_POST = [
+    '_csrf' => 'N2trYUFiSUN.GQRUKAMeCgU4HFMJFig6el4HGxgkDQtlLwJVeA8ccg=='
+    'productnum' => '1'
+    'price' => '1396.00'
+    'productid' => '8'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/order.html'
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '105'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/cart/add.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61354'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '105'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/product-8.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661233.8583
+    'REQUEST_TIME' => 1481661233
+]
+2016-12-14 04:33:57 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/controllers/OrderController.php:87
+2016-12-14 04:33:57 [192.168.199.108][12][-][info][application] $_POST = [
+    '_csrf' => 'WUctdmczdkUQNUJDDlIhDGsUWkQvRxc8FHJBDD51Mg0LA0RCXl4jdA=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '8'
+            'price' => '1396.00'
+            'productnum' => '1'
+        ]
+    ]
+    'productnum' => '1'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/order.html'
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '190'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/order/add.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61357'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '190'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/cart.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661237.7567
+    'REQUEST_TIME' => 1481661237
+]
+2016-12-14 04:34:39 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/controllers/CartController.php:62
+2016-12-14 04:34:39 [192.168.199.108][12][-][info][application] $_GET = [
+    'productid' => '26'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/order.html'
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => 'productid=26'
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/cart/add.html?productid=26'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61354'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/index.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661279.1011
+    'REQUEST_TIME' => 1481661279
+]
+2016-12-14 04:34:40 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/controllers/OrderController.php:87
+2016-12-14 04:34:40 [192.168.199.108][12][-][info][application] $_POST = [
+    '_csrf' => 'SVdZdVNROWsAJTZAOjBuInsELkcbJVgSBGI1DwoXfSMbEzBBajxsWg=='
+    'OrderDetail' => [
+        0 => [
+            'productid' => '26'
+            'price' => '90.00'
+            'productnum' => '1'
+        ]
+    ]
+    'productnum' => '1'
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/order.html'
+    '__user' => '12'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '189'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/order/add.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61356'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '189'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/cart.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661280.6911
+    'REQUEST_TIME' => 1481661280
+]
+2016-12-14 04:35:34 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:35:34 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:35:34 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61354'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661334.2001
+    'REQUEST_TIME' => 1481661334
+]
+2016-12-14 04:36:41 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:41 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:41 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661401.0226
+    'REQUEST_TIME' => 1481661401
+]
+2016-12-14 04:36:41 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:41 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:41 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661401.8024
+    'REQUEST_TIME' => 1481661401
+]
+2016-12-14 04:36:41 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:41 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:41 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661401.9635
+    'REQUEST_TIME' => 1481661401
+]
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:42 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661402.1242
+    'REQUEST_TIME' => 1481661402
+]
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:42 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661402.2826
+    'REQUEST_TIME' => 1481661402
+]
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:42 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661402.4355
+    'REQUEST_TIME' => 1481661402
+]
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:42 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661402.6021
+    'REQUEST_TIME' => 1481661402
+]
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:36:42 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Request.php:191
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(80): yii\web\Request->resolve()
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+2016-12-14 04:36:42 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'PHPSESSID' => 'b5i7aml57h7ovuob3jgipcgs51'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imoocback'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; PHPSESSID=b5i7aml57h7ovuob3jgipcgs51; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661402.7943
+    'REQUEST_TIME' => 1481661402
+]
+2016-12-14 04:37:02 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/views/public/login.php:33
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/PublicController.php:21
+2016-12-14 04:37:02 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/public/login.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61429'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661422.4968
+    'REQUEST_TIME' => 1481661422
+]
+2016-12-14 04:37:05 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/models/Admin.php:75
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/PublicController.php:16
+2016-12-14 04:37:05 [192.168.199.108][-][-][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'Hash is invalid.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Security.php:637
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/modules/models/Admin.php(50): yii\base\Security->validatePassword('123', NULL)
+#1 [internal function]: app\modules\models\Admin->validatePass('adminpass', NULL)
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/validators/InlineValidator.php(69): call_user_func(Array, 'adminpass', NULL)
+#3 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/validators/Validator.php(265): yii\validators\InlineValidator->validateAttribute(Object(app\modules\models\Admin), 'adminpass')
+#4 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Model.php(356): yii\validators\Validator->validateAttributes(Object(app\modules\models\Admin), Array)
+#5 /home/wwwroot/imoocshop/46_urlmanager/basic/modules/models/Admin.php(75): yii\base\Model->validate()
+#6 /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/PublicController.php(16): app\modules\models\Admin->login(Array)
+#7 [internal function]: app\modules\controllers\PublicController->actionLogin()
+#8 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#9 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#10 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('login', Array)
+#11 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('admin/public/lo...', Array)
+#12 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#14 {main}
+2016-12-14 04:37:05 [192.168.199.108][-][-][info][application] $_POST = [
+    '_csrf' => 'MEQtTVdkcmN5NkJ4PgUlKgIXWn8fEBMafXFBNw4iNitiAER5bgknUg=='
+    'Admin' => [
+        'adminuser' => 'zhangsan'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '169'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/public/login.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61432'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '169'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/admin/public/login.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661425.8398
+    'REQUEST_TIME' => 1481661425
+]
+2016-12-14 04:37:10 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/models/Admin.php:75
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/PublicController.php:16
+2016-12-14 04:37:10 [192.168.199.108][-][-][info][application] $_POST = [
+    '_csrf' => 'MEQtTVdkcmN5NkJ4PgUlKgIXWn8fEBMafXFBNw4iNitiAER5bgknUg=='
+    'Admin' => [
+        'adminuser' => 'admintest'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/imoocback.html'
+    '__user' => '12'
+    '__admin' => 12
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '170'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/public/login.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61432'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '170'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/admin/public/login.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661430.7347
+    'REQUEST_TIME' => 1481661430
+]
+2016-12-14 04:37:13 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/views/public/login.php:33
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/PublicController.php:21
+2016-12-14 04:37:13 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/public/login.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61430'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661433.5463
+    'REQUEST_TIME' => 1481661433
+]
+2016-12-14 04:37:26 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/models/Admin.php:75
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/PublicController.php:16
+2016-12-14 04:37:26 [192.168.199.108][-][-][info][application] $_POST = [
+    '_csrf' => 'cW0zNHFCQjc4H1wBGCMVfkM.RAY5NiNOPFhfTigEBn8jKVoASC8XBg=='
+    'Admin' => [
+        'adminuser' => 'admintest'
+        'adminpass' => '123'
+        'rememberMe' => '1'
+    ]
+]
+
+$_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/imoocback.html'
+    '__user' => '12'
+    '__admin' => 12
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '170'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/public/login.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61430'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '170'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://shop.imooc.com'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/admin/public/login.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661446.5401
+    'REQUEST_TIME' => 1481661446
+]
+2016-12-14 04:37:35 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/views/manage/reg.php:32
+    in /home/wwwroot/imoocshop/46_urlmanager/basic/modules/controllers/ManageController.php:67
+2016-12-14 04:37:35 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/imoocback.html'
+    '__user' => '12'
+    '__admin' => 12
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/admin/manage/reg.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61412'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/admin/manage/managers.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661455.8685
+    'REQUEST_TIME' => 1481661455
+]
+2016-12-14 04:38:00 [192.168.199.108][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:38:00 [192.168.199.108][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "imooc".' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('imooc', Array)
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-14 04:38:00 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imooc.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61432'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661480.5902
+    'REQUEST_TIME' => 1481661480
+]
+2016-12-14 04:39:19 [192.168.199.108][12][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'yii' does not exist: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh-cn/yii.php Fallback file does not exist as well: /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/messages/zh/yii.php
+2016-12-14 04:39:19 [192.168.199.108][12][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "imooc".' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Module.php:462
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php(100): yii\base\Module->runAction('imooc', Array)
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/web/Application.php:112
+Stack trace:
+#0 /home/wwwroot/imoocshop/46_urlmanager/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/wwwroot/imoocshop/46_urlmanager/basic/web/index.php(12): yii\base\Application->run()
+#2 {main}
+2016-12-14 04:39:19 [192.168.199.108][12][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '_csrf' => '6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '5852891829749-5'
+    'PHPSESSID' => 'ft284prg7ghr1mjm8dg1pndfj4'
+    '__user_identity' => 'a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea:2:{i:0;s:15:\"__user_identity\";i:1;s:15:\"[\"12\",\"\",86400]\";}'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/imoocback.html'
+    '__user' => '12'
+    '__admin' => 12
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/imooc.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '61479'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; _csrf=6fdcfbd09e33b647136ad81558c87c6fe360c2eb75006c8d4a046a1cf641dc83a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Iro5iaWI2Sw2HtayM5lzYFDHRDi49mU1%22%3B%7D; imooc_isnew=2; cvde=5852891829749-5; PHPSESSID=ft284prg7ghr1mjm8dg1pndfj4; __user_identity=a7397d38ef26b91ff410a13b15b077d2437656400b49b6f21f31c9b92a609c2ea%3A2%3A%7Bi%3A0%3Bs%3A15%3A%22__user_identity%22%3Bi%3A1%3Bs%3A15%3A%22%5B%2212%22%2C%22%22%2C86400%5D%22%3B%7D; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481661559.796
+    'REQUEST_TIME' => 1481661559
+]

@@ -1,0 +1,1011 @@
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::open] Opening redis DB connection: localhost:6379, database=2
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SELECT
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\web\UrlRule::parseRequest] Request parsed with URL rule: <controller:(index|cart|order)>
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\web\Application::handleRequest] Route requested: 'index/index'
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:52
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:60
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::open] Opening redis DB connection: localhost:6379, database=3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SELECT
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:81
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\Controller::runAction] Route to run: index/index
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\IndexController::actionIndex()
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][application] this is trace
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:14
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\View::renderFile] Rendering view file: /home/wwwroot/imoocshop/47_logger/basic/views/index/index.php
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:20
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\base\View::renderFile] Rendering view file: /home/wwwroot/imoocshop/47_logger/basic/views/layouts/layout1.php
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:20
+2016-12-14 15:24:59 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+2016-12-14 15:24:59 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52347'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700299.6739
+    'REQUEST_TIME' => 1481700299
+]
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::open] Opening redis DB connection: localhost:6379, database=2
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SELECT
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\web\UrlRule::parseRequest] Request parsed with URL rule: <controller:(index|cart|order)>
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\web\Application::handleRequest] Route requested: 'index/index'
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:52
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:60
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::open] Opening redis DB connection: localhost:6379, database=3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SELECT
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\web\Session::open] Session started
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_cart` WHERE userid = NULL
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:65
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=localhost;dbname=imooc_shop
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:65
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_cart` where userid = NULL
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:81
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:81
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE istui = "1" and ison = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `shop_product`
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'shop_product' AND kcu.table_name = 'shop_product'
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" and ishot = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" and issale = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\Controller::runAction] Route to run: index/index
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\IndexController::actionIndex()
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][application] this is trace
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:14
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE istui = "1" and ison = "1" ORDER BY `createtime` DESC LIMIT 4
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:16
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" ORDER BY `createtime` DESC LIMIT 4
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:17
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" and ishot = "1" ORDER BY `createtime` DESC LIMIT 4
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:18
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" ORDER BY `createtime` DESC LIMIT 7
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:19
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\View::renderFile] Rendering view file: /home/wwwroot/imoocshop/47_logger/basic/views/index/index.php
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:20
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\base\View::renderFile] Rendering view file: /home/wwwroot/imoocshop/47_logger/basic/views/layouts/layout1.php
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:20
+2016-12-14 15:26:04 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+2016-12-14 15:26:04 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52372'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700364.6048
+    'REQUEST_TIME' => 1481700364
+]
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\log\Dispatcher
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\Module::getModule] Loading module: debug
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\debug\Module::bootstrap()
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::open] Opening redis DB connection: localhost:6379, database=2
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SELECT
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\Module::getModule] Loading module: gii
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\Application::bootstrap] Bootstrap with yii\gii\Module::bootstrap()
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\web\UrlRule::parseRequest] Request parsed with URL rule: <controller:(index|cart|order)>
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\web\Application::handleRequest] Route requested: 'index/index'
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:52
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:60
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::open] Opening redis DB connection: localhost:6379, database=3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SELECT
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\web\Session::open] Session started
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:64
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_cart` WHERE userid = NULL
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:65
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Connection::open] Opening DB connection: mysql:host=localhost;dbname=imooc_shop
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:65
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_cart` where userid = NULL
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:81
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:81
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE istui = "1" and ison = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SHOW FULL COLUMNS FROM `shop_product`
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'shop_product' AND kcu.table_name = 'shop_product'
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:90
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:91
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:93
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:94
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" and ishot = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:96
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:97
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" and issale = "1" ORDER BY `createtime` DESC LIMIT 3
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: GET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] select max(updatetime) from `shop_product` where ison = "1"
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\db\Command::query] Saved query result in cache
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:99
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/CommonController.php:100
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\Controller::runAction] Route to run: index/index
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\InlineAction::runWithParams] Running action: app\controllers\IndexController::actionIndex()
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][application] this is trace
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:14
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE istui = "1" and ison = "1" ORDER BY `createtime` DESC LIMIT 4
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:17
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" ORDER BY `createtime` DESC LIMIT 4
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:18
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" and ishot = "1" ORDER BY `createtime` DESC LIMIT 4
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:19
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][yii\db\Command::query] SELECT * FROM `shop_product` WHERE ison = "1" ORDER BY `createtime` DESC LIMIT 7
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:20
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\View::renderFile] Rendering view file: /home/wwwroot/imoocshop/47_logger/basic/views/index/index.php
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:22
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\base\View::renderFile] Rendering view file: /home/wwwroot/imoocshop/47_logger/basic/views/layouts/layout1.php
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:22
+2016-12-14 15:27:34 [192.168.199.108][-][-][trace][yii\redis\Connection::executeCommand] Executing Redis Command: SET
+2016-12-14 15:27:34 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52413'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700454.7793
+    'REQUEST_TIME' => 1481700454
+]
+2016-12-16 05:31:32 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\FileTarget: PHP Warning 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' 
+
+in /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php:221
+
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php(221): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', '/home/wwwroot/i...', 221, Array)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php(113): yii\log\Target::filterMessages(Array, 4, 'testkafka', Array)
+#2 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\log\Target->collect(Array, false)
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, false)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Logger.php(158): yii\log\Logger->flush()
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(424): yii\log\Logger->log('["this is index...', 4, 'testkafka')
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(33): yii\BaseYii::info('["this is index...', 'testkafka')
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php(55): app\commands\KafkaController->callback('["this is index...')
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(28): app\models\Kafka->consumer(Object(app\commands\KafkaController), 'callback')
+#9 [internal function]: app\commands\KafkaController->actionConsume()
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('consume', Array)
+#13 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('consume', Array)
+#14 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('kafka/consume', Array)
+#15 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('kafka/consume', Array)
+#16 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(20): yii\base\Application->run()
+#18 {main}
+2016-12-16 05:31:22 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837482.8515
+    'REQUEST_TIME' => 1481837482
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]
+2016-12-16 05:31:33 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant RD_KAFKA_RESP_ERR_TIMED_OUT - assumed 'RD_KAFKA_RESP_ERR_TIMED_OUT'' in /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php:57
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php(57): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/wwwroot/i...', 57, Array)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(28): app\models\Kafka->consumer(Object(app\commands\KafkaController), 'callback')
+#2 [internal function]: app\commands\KafkaController->actionConsume()
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('consume', Array)
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('consume', Array)
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('kafka/consume', Array)
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('kafka/consume', Array)
+#9 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(20): yii\base\Application->run()
+#11 {main}
+2016-12-16 05:31:22 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837482.8515
+    'REQUEST_TIME' => 1481837482
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]
+2016-12-16 05:32:08 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\FileTarget: PHP Warning 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' 
+
+in /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php:221
+
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php(221): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', '/home/wwwroot/i...', 221, Array)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php(113): yii\log\Target::filterMessages(Array, 4, 'testkafka', Array)
+#2 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\log\Target->collect(Array, false)
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, false)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Logger.php(158): yii\log\Logger->flush()
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(424): yii\log\Logger->log('["this is index...', 4, 'testkafka')
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(33): yii\BaseYii::info('["this is index...', 'testkafka')
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php(55): app\commands\KafkaController->callback('["this is index...')
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(28): app\models\Kafka->consumer(Object(app\commands\KafkaController), 'callback')
+#9 [internal function]: app\commands\KafkaController->actionConsume()
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('consume', Array)
+#13 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('consume', Array)
+#14 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('kafka/consume', Array)
+#15 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('kafka/consume', Array)
+#16 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(20): yii\base\Application->run()
+#18 {main}
+2016-12-16 05:31:51 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837511.8766
+    'REQUEST_TIME' => 1481837511
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]
+2016-12-16 05:32:09 [-][-][-][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant RD_KAFKA_RESP_ERR_TIMED_OUT - assumed 'RD_KAFKA_RESP_ERR_TIMED_OUT'' in /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php:57
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php(57): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', '/home/wwwroot/i...', 57, Array)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(28): app\models\Kafka->consumer(Object(app\commands\KafkaController), 'callback')
+#2 [internal function]: app\commands\KafkaController->actionConsume()
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('consume', Array)
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('consume', Array)
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('kafka/consume', Array)
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('kafka/consume', Array)
+#9 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(20): yii\base\Application->run()
+#11 {main}
+2016-12-16 05:31:51 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837511.8766
+    'REQUEST_TIME' => 1481837511
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]
+2016-12-16 05:33:30 [-][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\log\FileTarget: PHP Warning 'yii\base\ErrorException' with message 'Invalid argument supplied for foreach()' 
+
+in /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php:221
+
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php(221): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', '/home/wwwroot/i...', 221, Array)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Target.php(113): yii\log\Target::filterMessages(Array, 4, 'testkafka', Array)
+#2 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(188): yii\log\Target->collect(Array, false)
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Logger.php(173): yii\log\Dispatcher->dispatch(Array, false)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Logger.php(158): yii\log\Logger->flush()
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(424): yii\log\Logger->log('["this is index...', 4, 'testkafka')
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(33): yii\BaseYii::info('["this is index...', 'testkafka')
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/models/Kafka.php(55): app\commands\KafkaController->callback('["this is index...')
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/commands/KafkaController.php(28): app\models\Kafka->consumer(Object(app\commands\KafkaController), 'callback')
+#9 [internal function]: app\commands\KafkaController->actionConsume()
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#11 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Controller.php(128): yii\base\Controller->runAction('consume', Array)
+#13 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Module.php(454): yii\console\Controller->runAction('consume', Array)
+#14 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('kafka/consume', Array)
+#15 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('kafka/consume', Array)
+#16 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(20): yii\base\Application->run()
+#18 {main}
+2016-12-16 05:33:12 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837592.3393
+    'REQUEST_TIME' => 1481837592
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]
+2016-12-16 05:39:16 [-][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\FileTarget::flushInterval' in /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('flushInterval', 1)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\log\FileTarget), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\log\\FileTar...', Array, Array)
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\log\\FileTar...', Array, Array)
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(102): yii\BaseYii::createObject(Array)
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Object.php(107): yii\log\Dispatcher->init()
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\Object->__construct(Array)
+#9 [internal function]: yii\log\Dispatcher->__construct(Array)
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#11 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#12 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#13 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#14 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(302): yii\di\ServiceLocator->get('log')
+#15 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(267): yii\base\Application->bootstrap()
+#16 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(124): yii\base\Application->init()
+#17 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Object.php(107): yii\console\Application->init()
+#18 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#19 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#20 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(19): yii\console\Application->__construct(Array)
+#21 {main}
+2016-12-16 05:39:16 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837956.5808
+    'REQUEST_TIME' => 1481837956
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]
+2016-12-16 05:39:18 [-][-][-][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\log\FileTarget::flushInterval' in /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Component.php:197
+Stack trace:
+#0 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(521): yii\base\Component->__set('flushInterval', 1)
+#1 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Object.php(105): yii\BaseYii::configure(Object(yii\log\FileTarget), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#4 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\log\\FileTar...', Array, Array)
+#5 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\log\\FileTar...', Array, Array)
+#6 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(102): yii\BaseYii::createObject(Array)
+#7 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Object.php(107): yii\log\Dispatcher->init()
+#8 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/log/Dispatcher.php(90): yii\base\Object->__construct(Array)
+#9 [internal function]: yii\log\Dispatcher->__construct(Array)
+#10 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(379): ReflectionClass->newInstanceArgs(Array)
+#11 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/Container.php(154): yii\di\Container->build('yii\\log\\Dispatc...', Array, Array)
+#12 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\log\\Dispatc...', Array, Array)
+#13 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/di/ServiceLocator.php(133): yii\BaseYii::createObject(Array)
+#14 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(302): yii\di\ServiceLocator->get('log')
+#15 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(267): yii\base\Application->bootstrap()
+#16 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(124): yii\base\Application->init()
+#17 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Object.php(107): yii\console\Application->init()
+#18 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/base/Application.php(206): yii\base\Object->__construct(Array)
+#19 /home/wwwroot/imoocshop/50_kafka_class/basic/vendor/yiisoft/yii2/console/Application.php(89): yii\base\Application->__construct(Array)
+#20 /home/wwwroot/imoocshop/50_kafka_class/basic/yii(19): yii\console\Application->__construct(Array)
+#21 {main}
+2016-12-16 05:39:18 [-][-][-][info][application] $_SERVER = [
+    'HOSTNAME' => 'localhost.localdomain'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'HISTSIZE' => '1000'
+    'SSH_CLIENT' => '192.168.199.108 56776 22'
+    'QTDIR' => '/usr/lib64/qt-3.3'
+    'QTINC' => '/usr/lib64/qt-3.3/include'
+    'SSH_TTY' => '/dev/pts/0'
+    'LC_ALL' => 'en_US.UTF-8'
+    'USER' => 'root'
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.tbz=01;31:*.tbz2=01;31:*.bz=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:'
+    'MAVEN_HOME' => '/usr/share/apache-maven'
+    'MAIL' => '/var/spool/mail/root'
+    'PATH' => '/data/usr/kubernetes/kubernetes/bin:/root/local/node/bin:/root/local/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin'
+    'PWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic'
+    'EDITOR' => 'vim'
+    'LANG' => 'zh_CN.UTF-8'
+    'PS1' => '\\[\\e[1;34m\\][\\u@\\h \\W]\\[\\e[1;31m\\] #\\#> \\[\\e[0m'
+    'HISTCONTROL' => 'ignoredups'
+    'M2_HOME' => '/usr/share/apache-maven'
+    'SHLVL' => '1'
+    'HOME' => '/root'
+    'LOGNAME' => 'root'
+    'QTLIB' => '/usr/lib64/qt-3.3/lib'
+    'CVS_RSH' => 'ssh'
+    'SSH_CONNECTION' => '192.168.199.108 56776 192.168.199.112 22'
+    'LESSOPEN' => '|/usr/bin/lesspipe.sh %s'
+    'G_BROKEN_FILENAMES' => '1'
+    '_' => './yii'
+    'OLDPWD' => '/home/wwwroot/imoocshop/50_kafka_class/basic/commands'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1481837958.7147
+    'REQUEST_TIME' => 1481837958
+    'argv' => [
+        0 => './yii'
+        1 => 'kafka/consume'
+    ]
+    'argc' => 2
+]

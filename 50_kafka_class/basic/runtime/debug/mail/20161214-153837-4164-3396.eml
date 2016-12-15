@@ -1,0 +1,132 @@
+Message-ID: <d56fc8e14a7dc31c22d3ec0f50b818ed@shop.imooc.com>
+Date: Wed, 14 Dec 2016 15:38:30 +0800
+Subject: =?utf-8?Q?imooc=5Fshop=E7=9A=84=E6=97=A5=E5=BF=97?=
+From: imooc_shop@163.com
+To: 86267659@qq.com
+MIME-Version: 1.0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+2016-12-14 15:38:30 [192.168.199.108][-][-][warning][application] this
+is=
+ warning
+    in
+/home/wwwroot/imoocshop/47_logger/basic/controllers/Ind=
+exController.php:15
+2016-12-14 15:38:30 [192.168.199.108][-][-][info][app=
+lication]
+$_COOKIE =3D [
+    'imooc_uuid' =3D> '4b3d2c71-40a6-4141-ac77=
+-9cd1777bf3f0'
+    'loginstate' =3D> '1'
+    'apsid' =3D>
+'gxM2FiODQ1=
+ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY=
+2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=3DOT'
+    'imooc_isnew_ct' =3D> '148141295=
+8'
+    '__admin_identity' =3D>
+'fdf91ff36f4380c2f06d01c4909b51a68f8af90=
+517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,=
+\"\",86400]\";}'
+    'imooc_isnew' =3D> '2'
+    'cvde' =3D> '58532110b1=
+ebc-5'
+    'PHPSESSID' =3D> 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' =
+=3D>
+'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2=
+:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+=
+
+$_SESSION =3D [
+    '__flash' =3D> [
+        'referrer' =3D> -1
+  =
+  ]
+    'referrer' =3D> 'http://shop.imooc.com/index.html'
+]
+
+$_SER=
+VER =3D [
+    'USER' =3D> 'www'
+    'HOME' =3D> '/home/www'
+    'FCGI=
+_ROLE' =3D> 'RESPONDER'
+    'SCRIPT_FILENAME' =3D> '/home/wwwroot/imoocsh=
+op/web/index.php'
+    'QUERY_STRING' =3D> ''
+    'REQUEST_METHOD' =3D> =
+'GET'
+    'CONTENT_TYPE' =3D> ''
+    'CONTENT_LENGTH' =3D> ''
+    'SC=
+RIPT_NAME' =3D> '/index.php'
+    'REQUEST_URI' =3D> '/index.html'
+    '=
+DOCUMENT_URI' =3D> '/index.php'
+    'DOCUMENT_ROOT' =3D> '/home/wwwroot/i=
+moocshop/web'
+    'SERVER_PROTOCOL' =3D> 'HTTP/1.1'
+    'REQUEST_SCHEME=
+' =3D> 'http'
+    'GATEWAY_INTERFACE' =3D> 'CGI/1.1'
+    'SERVER_SOFTWA=
+RE' =3D> 'nginx/1.10.0'
+    'REMOTE_ADDR' =3D> '192.168.199.108'
+    'R=
+EMOTE_PORT' =3D> '52560'
+    'SERVER_ADDR' =3D> '192.168.199.112'
+    '=
+SERVER_PORT' =3D> '80'
+    'SERVER_NAME' =3D> 'shop.imooc.com'
+    'RED=
+IRECT_STATUS' =3D> '200'
+    'HTTP_HOST' =3D> 'shop.imooc.com'
+    'HTT=
+P_CONNECTION' =3D> 'keep-alive'
+    'HTTP_CACHE_CONTROL' =3D> 'max-age=3D=
+0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' =3D> '1'
+    'HTTP_USER_AGENT' =
+=3D> 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+AppleWebKit/537.36 (KHTML=
+, like Gecko) Chrome/53.0.2785.116
+Safari/537.36'
+    'HTTP_ACCEPT' =3D=
+>
+'text/html,application/xhtml+xml,application/xml;q=3D0.9,image/webp,*/*=
+;q=3D0.8'
+    'HTTP_REFERER' =3D> 'http://shop.imooc.com/member/reg.html'=
+
+    'HTTP_ACCEPT_ENCODING' =3D> 'gzip, deflate, sdch'
+    'HTTP_ACCEPT=
+_LANGUAGE' =3D> 'zh-CN,zh;q=3D0.8'
+    'HTTP_COOKIE' =3D> 'imooc_uuid=3D4=
+b3d2c71-40a6-4141-ac77-9cd1777bf3f0;
+loginstate=3D1;
+apsid=3DgxM2FiODQ1=
+ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAA=
+AAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY=
+2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT;
+imooc_isnew_ct=3D1481412958;
+__a=
+dmin_identity=3Dfdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d940=
+4addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A=
+%22%5B12%2C%22%22%2C86400%5D%22%3B%7D;
+imooc_isnew=3D2; cvde=3D58532110b1=
+ebc-5;
+PHPSESSID=3Dnjpjn0o7hlifuk6lcr3jijess6;
+_csrf=3Daf9871c2d4c2eaca=
+24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A=
+%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D=
+'
+    'PHP_SELF' =3D> '/index.php'
+    'REQUEST_TIME_FLOAT' =3D> 148170=
+1110.2097
+    'REQUEST_TIME' =3D> 1481701110
+]

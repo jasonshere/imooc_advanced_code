@@ -1,0 +1,524 @@
+2016-12-14 15:31:27 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:15
+2016-12-14 15:31:26 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52484'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700686.9706
+    'REQUEST_TIME' => 1481700686
+]
+2016-12-14 15:33:57 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:15
+2016-12-14 15:33:57 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52505'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700837.4259
+    'REQUEST_TIME' => 1481700837
+]
+2016-12-14 15:34:58 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:15
+2016-12-14 15:34:58 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52506'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700898.0708
+    'REQUEST_TIME' => 1481700898
+]
+2016-12-14 15:35:26 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:15
+2016-12-14 15:35:26 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52525'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481700926.6984
+    'REQUEST_TIME' => 1481700926
+]
+2016-12-14 15:38:30 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/47_logger/basic/controllers/IndexController.php:15
+2016-12-14 15:38:30 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    '__admin_identity' => 'fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa:2:{i:0;s:16:\"__admin_identity\";i:1;s:13:\"[12,\"\",86400]\";}'
+    'imooc_isnew' => '2'
+    'cvde' => '58532110b1ebc-5'
+    'PHPSESSID' => 'njpjn0o7hlifuk6lcr3jijess6'
+    '_csrf' => 'af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"1ECvwOS-bfJJsFAa_MMZYJXShb8hk82V\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'referrer' => -1
+    ]
+    'referrer' => 'http://shop.imooc.com/index.html'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.html'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '52560'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://shop.imooc.com/member/reg.html'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; __admin_identity=fdf91ff36f4380c2f06d01c4909b51a68f8af90517c7d28ebad6eb2d9404addfa%3A2%3A%7Bi%3A0%3Bs%3A16%3A%22__admin_identity%22%3Bi%3A1%3Bs%3A13%3A%22%5B12%2C%22%22%2C86400%5D%22%3B%7D; imooc_isnew=2; cvde=58532110b1ebc-5; PHPSESSID=njpjn0o7hlifuk6lcr3jijess6; _csrf=af9871c2d4c2eaca24b24b30c096f361b0371a093671fbb9ab26c880e8baa121a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%221ECvwOS-bfJJsFAa_MMZYJXShb8hk82V%22%3B%7D'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481701110.2097
+    'REQUEST_TIME' => 1481701110
+]
+2016-12-15 16:48:11 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/48_sentry/basic/controllers/IndexController.php:15
+2016-12-15 16:48:10 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'cvde' => '585492b95b4fe-2'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '63136'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; cvde=585492b95b4fe-2'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481791690.9406
+    'REQUEST_TIME' => 1481791690
+]
+2016-12-15 16:50:51 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/48_sentry/basic/controllers/IndexController.php:15
+2016-12-15 16:50:51 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'cvde' => '585492b95b4fe-2'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '63397'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; cvde=585492b95b4fe-2'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481791851.3409
+    'REQUEST_TIME' => 1481791851
+]
+2016-12-15 16:54:46 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/48_sentry/basic/controllers/IndexController.php:15
+2016-12-15 16:54:46 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'cvde' => '585492b95b4fe-2'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '63682'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; cvde=585492b95b4fe-2'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481792086.7671
+    'REQUEST_TIME' => 1481792086
+]
+2016-12-15 16:55:38 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/48_sentry/basic/controllers/IndexController.php:15
+2016-12-15 16:55:38 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'cvde' => '585492b95b4fe-2'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '63687'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; cvde=585492b95b4fe-2'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481792138.7866
+    'REQUEST_TIME' => 1481792138
+]
+2016-12-15 16:56:20 [192.168.199.108][-][-][warning][application] this is warning
+    in /home/wwwroot/imoocshop/48_sentry/basic/controllers/IndexController.php:15
+2016-12-15 16:56:20 [192.168.199.108][-][-][info][application] $_COOKIE = [
+    'imooc_uuid' => '4b3d2c71-40a6-4141-ac77-9cd1777bf3f0'
+    'loginstate' => '1'
+    'apsid' => 'gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE/fS1g=OT'
+    'imooc_isnew_ct' => '1481412958'
+    'imooc_isnew' => '2'
+    'cvde' => '585492b95b4fe-2'
+]
+
+$_SERVER = [
+    'USER' => 'www'
+    'HOME' => '/home/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'SCRIPT_FILENAME' => '/home/wwwroot/imoocshop/web/index.php'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'CONTENT_TYPE' => ''
+    'CONTENT_LENGTH' => ''
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/wwwroot/imoocshop/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_SCHEME' => 'http'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.10.0'
+    'REMOTE_ADDR' => '192.168.199.108'
+    'REMOTE_PORT' => '63682'
+    'SERVER_ADDR' => '192.168.199.112'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'shop.imooc.com'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'shop.imooc.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8'
+    'HTTP_COOKIE' => 'imooc_uuid=4b3d2c71-40a6-4141-ac77-9cd1777bf3f0; loginstate=1; apsid=gxM2FiODQ1ZjQzMTlhYjkyZjg2ZmVkY2U0YzFmZGEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMjkxNzYyOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsaWppZUBpbW9vYy5jb20AAAAAAAAAAAAAAAAAAAAAADRlNmUyNjA3Y2ZmYzk3YzJmY2RiZGE4ZTJjYmNiZTc0T99LWE%2FfS1g%3DOT; imooc_isnew_ct=1481412958; imooc_isnew=2; cvde=585492b95b4fe-2'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1481792180.8975
+    'REQUEST_TIME' => 1481792180
+]

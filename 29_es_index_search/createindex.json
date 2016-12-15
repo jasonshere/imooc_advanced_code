@@ -1,0 +1,32 @@
+{
+    "settings": {
+        "refresh_interval": "5s",
+        "number_of_shards": 1,
+        "number_of_replicas": 0
+    },
+    "mappings": {
+        "_default_": {
+            "_all": {
+                "enabled": true
+            }
+        },
+        "products": {
+            "dynamic": false,
+            "properties": {
+                "productid": {
+                    "type": "long"
+                },
+                "title": {
+                    "type": "string",
+                    "index": "analyzed",
+                    "analyzer": "ik"
+                },
+                "descr": {
+                    "type": "string",
+                    "index": "analyzed",
+                    "analyzer": "ik"
+                }
+            }
+        }
+    }
+}

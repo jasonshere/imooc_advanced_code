@@ -1,0 +1,16 @@
+{
+    "query": {
+        "multi_match": {
+            "query": "这是",
+            "fields": ["title", "descr"]
+        }
+    },
+    "highlight" : {
+        "pre_tags" : ["<i class=\"highlight\">"],
+        "post_tags" : ["</i>"],
+        "fields" : {
+            "title" : {},
+            "descr" : {}
+        }
+    }
+}
